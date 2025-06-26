@@ -14,7 +14,7 @@ import re
 
 # Read yaml-file
 def read_yaml(filename):
-    """
+    	"""
 		Данная функция читает yaml-файл, возвращая Python-объект
 		
 	:param filename: путь к yaml-файлу для чтения
@@ -26,7 +26,7 @@ def read_yaml(filename):
 
 # Get 'checks' from data
 def read_rules(data):
-    """
+    	"""
 		Извлекает список правил из структуры данных.
 	
 	:param data: словарь, полученный из yaml-файла
@@ -41,7 +41,7 @@ def read_rules(data):
 
 # Parse rule
 def parse_rule(rule):
-    """
+    	"""
 		Парсит строку с правилом и возвращает структурированный словарь
 		
 	:param rule: список правил
@@ -104,7 +104,7 @@ def parse_rule(rule):
 
 
 def compare_rule(part):
-    """
+    	"""
 		Парсит строку с условием сравнения и возвращает его компоненты
 		
 	:param part: получает строку следующего вида:
