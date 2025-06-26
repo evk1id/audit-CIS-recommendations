@@ -6,5 +6,5 @@
 # Run  
 Run the following command:  
 ```
-_python3 audit.py <yaml-file>_
+python3 audit.py <yaml-file>
 ```
